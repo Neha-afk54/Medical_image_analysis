@@ -1,0 +1,6 @@
+
+Libraries :-
+1.numpy
+2.matplotlib
+3.scikit-image
+4.scipy
