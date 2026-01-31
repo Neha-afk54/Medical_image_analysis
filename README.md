@@ -1,24 +1,30 @@
-----------Medical Image Analysis for Tissue Characterization----------
+________Medical Image Analysis for Tissue and Structural Characterization________
 
-This project implements a Python-based image processing pipeline to preprocess and analyze biomedical images. 
-The workflow includes noise reduction, image segmentation, feature extraction, and visualization to study 
-tissue morphology from microscopy-based images.
+This project implements a Python-based image analysis pipeline designed for medical image processing.
 
------------Tools & Technologies----------------------
-- Python
-- NumPy
-- Matplotlib
-- scikit-image
+The workflow can be applied to a variety of 2D medical images such as MRI slices, histopathology images, microscopy images, and CT slices to perform basic preprocessing, segmentation, and morphological feature extraction.
 
--------------Methodology------------------------------
-1. Load and preprocess grayscale biomedical images.
-2. Apply Gaussian filtering for noise reduction.
-3. Perform image segmentation using Otsu’s thresholding.
-4. Extract morphological features such as area, perimeter, and mean intensity.
-5. Visualize intermediate and final results for interpretability.
+For demonstration and validation, the pipeline is applied to a brain MRI image, showcasing its adaptability to real-world medical imaging data.
 
---------------Results-------------------------------
-The project successfully segments tissue regions and extracts quantitative features that help characterize 
-structural properties of biomedical images.
+______Tools & Technologies______
+
+1.Python
+2.NumPy
+3.Matplotlib
+4.scikit-image
+5.SciPy
+
+_____Methodology____
+
+1.Loaded medical images and converted them to grayscale where required.
+2.Applied Gaussian filtering to reduce noise and smooth intensity variations.
+3.Performed image segmentation using Otsu’s thresholding to identify regions of interest.
+4.Extracted morphological features such as area, perimeter, and mean intensity from segmented regions.
+5.Visualized original, preprocessed, and segmented outputs to validate the analysis pipeline.
+
+________Results & Observations________
+
+The pipeline successfully processed different types of medical images and demonstrated reliable segmentation and feature extraction.
+Using a brain MRI image as a demonstration case, the method produced interpretable morphological metrics that can support exploratory analysis and further image-based studies.
 
 
