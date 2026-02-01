@@ -8,19 +8,19 @@ For demonstration and validation, the pipeline is applied to a brain MRI image, 
 
 ______Tools & Technologies______
 
-1.Python
-2.NumPy
-3.Matplotlib
-4.scikit-image
-5.SciPy
+1. Python
+2. NumPy
+3. Matplotlib
+4. scikit-image
+5. SciPy
 
 _____Methodology____
 
-1.Loaded medical images and converted them to grayscale where required.
-2.Applied Gaussian filtering to reduce noise and smooth intensity variations.
-3.Performed image segmentation using Otsu’s thresholding to identify regions of interest.
-4.Extracted morphological features such as area, perimeter, and mean intensity from segmented regions.
-5.Visualized original, preprocessed, and segmented outputs to validate the analysis pipeline.
+1. Loaded medical images and converted them to grayscale where required.
+2. Applied Gaussian filtering to reduce noise and smooth intensity variations.
+3. Performed image segmentation using Otsu’s thresholding to identify regions of interest.
+4. Extracted morphological features such as area, perimeter, and mean intensity from segmented regions.
+5. Visualized original, preprocessed, and segmented outputs to validate the analysis pipeline.
 
 ________Results & Observations________
 
